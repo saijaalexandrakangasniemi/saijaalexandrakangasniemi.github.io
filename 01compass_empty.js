@@ -17,7 +17,7 @@ if(compassHeading > 315 || compassHeading < 45) {
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "∞ waterfall ∞ empty ∞ synthesis ∞";
+                text_area.textContent = "∞ ∞ empty ∞ ∞";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
