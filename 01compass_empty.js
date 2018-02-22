@@ -13,15 +13,15 @@ if(compassHeading > 315 || compassHeading < 45) {
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "∞ to the west ∞ pleasure ∞";
+                text_area.textContent = "∞ pleasure ∞";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "∞ to the waterfall ∞ empty ∞ to the synthesis ∞";
+                text_area.textContent = "∞ waterfall ∞ empty ∞ synthesis ∞";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "∞ to the centre ∞ benediction ∞ ";
+                text_area.textContent = "∞ centre ∞ ";
         }
 
        //  text_area.textContent = compassHeading;
